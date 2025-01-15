@@ -60,6 +60,3 @@ def upload():
     print(f"Image Path: {image_url}")
     return render_template('index.html', prediction=prediction, image_path=image_url)
 
-# Start server
-if __name__ == '__main__':
-    app.run(debug=True)
